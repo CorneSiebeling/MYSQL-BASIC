@@ -17,3 +17,4 @@ SELECT Max(value) As hoogste_loon_chelsea_speler FROM players WHERE club = "chel
 -- Opdracht 9
 SELECT AVG(age) AS avg_age_alle_spelers FROM players
 -- Opdracht 10
+SELECT ROUND(AVG(value)) AS avg_value  FROM players WHERE club= 'Liverpool';
