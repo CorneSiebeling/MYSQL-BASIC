@@ -1,9 +1,9 @@
 -- Opdracht 1 
-
+SELECT * FROM players WHERE nationality = "Spain" AND club = "chelsea";
 -- Opdracht 2 
-
+SELECT * FROM players WHERE nationality = "Spain" AND age = "17" AND wage = 15000;
 -- Opdracht 3
-
+SELECT * FROM players WHERE club = "liverpool" AND age <= "20"
 -- Opdracht 4
 
 -- Opdracht 5
