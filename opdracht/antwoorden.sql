@@ -1,11 +1,11 @@
 -- Opdracht 1 
-
+SELECT * FROM videogamesales
 -- Opdracht 2 
-
+SELECT * FROM videogamesales WHERE year=1999
 -- Opdracht 3
-
+SELECT * FROM videogamesales WHERE genre="sports" AND NA_Sales
 -- Opdracht 4
-
+SELECT * FROM videogamesales WHERE publisher = "nintendo" AND year <= 1990
 -- Opdracht 5
 
 -- Opdracht 6 
